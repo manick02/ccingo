@@ -7,4 +7,4 @@ Operating system provides following boundaries of concurrency
 
 Context switching at a layer closer to hardware is costly
 
-go test -bench=. -cpu=1 
+go test -bench=. -cpu=2
