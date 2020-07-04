@@ -10,6 +10,7 @@ func main() {
 	var c <-chan interface{}
 	var wg sync.WaitGroup
 	noop := func() {
+		// this go routine will not be garbage collected here
 		wg.Done()
 		<-c
 	}
