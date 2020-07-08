@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var wg sync.WaitGroup
-	for i:= range []int {1,3,4,5} {
+	for _,i:= range []int {1,3,4,5} {
 		wg.Add(1)
 		go func(i int) {
             defer wg.Done()
