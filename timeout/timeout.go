@@ -23,7 +23,6 @@ func main() {
 			return
 		default:
 			fmt.Println("Non Activity")
-
 		}
 	}
 
